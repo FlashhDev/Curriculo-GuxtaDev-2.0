@@ -1,0 +1,76 @@
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        img.profile {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            color: #555;
+        }
+        section {
+            background: white;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .social-links img {
+            width: 30px;
+            height: 30px;
+            margin: 0 10px;
+        }
+        .skills {
+            margin: 10px 0;
+        }
+        .skill {
+            margin: 5px 0;
+        }
+        .progress {
+            background-color: #e0e0e0;
+            border-radius: 5px;
+            overflow: hidden;
+            height: 20px;
+            width: 100%;
+        }
+        .progress-bar {
+            height: 100%;
+            background-color: #4caf50;
+            text-align: center;
+            color: white;
+            line-height: 20px; /* Centraliza o texto verticalmente */
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+             to { opacity: 1; }
+        }
+        @keyframes scaleIn {
+             from { transform: scale(0); }
+             to { transform: scale(1); }
+        }
+        @keyframes slideIn {
+             from { transform: translateY(-20px); opacity: 0; }
+             to { transform: translateY(0); opacity: 1; }
+         }
+         @keyframes grow {
+             from { width: 0; }
+             to { width: 100%; }
